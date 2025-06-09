@@ -1,0 +1,13 @@
+[package]
+name = "r"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.27.2"
+egui = "0.27.2"
+image = "0.25.1"
+native-dialog = "0.7.0"
+imageproc = "0.25.0"    # For drawing shapes, text, and more advanced filters
+fastblur = "0.1.1"      # For potentially faster Gaussian blurs
+# For more advanced image processing, you might consider crates like:
